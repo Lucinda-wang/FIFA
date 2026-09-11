@@ -28,6 +28,11 @@ If you would like to check if your target had been submitted already, check this
 https://ztfweb.ipac.caltech.edu/cgi-bin/getForcedPhotometryRequests.cgi
 
 ## Installation
+Here we strongly recommend you to use conda for installation.
+```python
+conda install numpy, matplotlib, scipy
+```
+## Install from source
 ```python
 git clone https://github.com/Lucinda-wang/FIFA.git
 cd FIFA
@@ -36,6 +41,7 @@ pip install -e .
 
 ## Quick Start
 ```python
+from FIFA import SN_reader_ztf
 
 sn_path = '/the/way/to/your/ztffps_file.txt'
 MJD  = SN_reader_ztf(sn_path)['mjd']
