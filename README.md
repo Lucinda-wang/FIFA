@@ -53,6 +53,7 @@ Mag  = SN_reader_ztf(sn_path).earn_data()['mag']
 reader.run_figure('2019np')
 
 ```
+![description](test/2019np.png)
 
 ## Links
 - Reference: https://ui.adsabs.harvard.edu/abs/2019PASP..131a8003M/abstract
