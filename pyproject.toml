@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "FIFA"
+name = "fifa"
 version = "0.1.0"
 description = "Read and quality-filter ZTF and ATLAS forced-photometry light curves"
 readme = "README.md"
@@ -17,4 +17,4 @@ dependencies = [
 ]
 
 [tool.setuptools]
-packages = ["FIFA"]
+packages = ["fifa"]
