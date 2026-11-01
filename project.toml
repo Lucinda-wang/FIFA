@@ -11,9 +11,9 @@ requires-python = ">=3.9"
 dependencies = [
     "numpy",
     "scipy",
-    "openpyxl"
-    "astropy"
-    "matplotlib",
+    "openpyxl",
+    "astropy",
+    "matplotlib"
 ]
 
 [tool.setuptools]
