@@ -38,14 +38,19 @@ git clone https://github.com/Lucinda-wang/FIFA.git
 cd FIFA
 pip install -e . 
 ```
+If you would like to know more about the function, here is the following step.
+```python
+python -c "from fifa import SN_reader_ztf; help(SN_reader_ztf)"
+```
 
 ## Quick Start
 ```python
-from FIFA import SN_reader_ztf
+from Fifa import SN_reader_ztf
 
 sn_path = '/the/way/to/your/ztffps_file.txt'
 MJD  = SN_reader_ztf(sn_path).earn_data()['mjd']
-flux = SN_reader_ztf(sn_path).earn_data()['flux']
+Mag  = SN_reader_ztf(sn_path).earn_data()['mag']
+reader.run_figure('2019np')
 
 ```
 
