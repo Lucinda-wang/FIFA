@@ -45,7 +45,7 @@ python -c "from fifa import SN_reader_ztf; help(SN_reader_ztf)"
 
 ## Quick Start
 ```python
-from Fifa import SN_reader_ztf
+from fifa import SN_reader_ztf
 
 sn_path = '/the/way/to/your/ztffps_file.txt'
 MJD  = SN_reader_ztf(sn_path).earn_data()['mjd']
