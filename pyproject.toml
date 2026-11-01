@@ -13,8 +13,7 @@ dependencies = [
     "scipy",
     "openpyxl",
     "astropy",
-    "matplotlib",
-    "SciencePlots"
+    "matplotlib"
 ]
 
 [tool.setuptools]
