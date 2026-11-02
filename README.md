@@ -50,7 +50,7 @@ from fifa import SN_reader_ztf
 sn_path = '/the/way/to/your/ztffps_file.txt'
 MJD  = SN_reader_ztf(sn_path).earn_data()['mjd']
 Mag  = SN_reader_ztf(sn_path).earn_data()['mag']
-reader.run_figure('2019np')
+SN_reader_ztf(sn_path).run_figure('2019np')
 
 ```
 ![description](test/2019np.png)
